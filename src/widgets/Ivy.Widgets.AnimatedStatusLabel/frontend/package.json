@@ -17,8 +17,8 @@
     "postcss": "8.5.10",
     "tailwindcss": "3.4.19",
     "typescript": "5.9.3",
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.20",
-    "vite-plus": "0.1.20"
+    "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1633",
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1633"
   },
   "peerDependencies": {
     "react": "19.2.3",
@@ -30,8 +30,8 @@
       "jiti": "^2.0.0",
       "lodash": "4.18.1",
       "lodash-es": "4.18.1",
-      "vite": "npm:@voidzero-dev/vite-plus-core@0.1.20",
-      "vitest": "npm:@voidzero-dev/vite-plus-test@0.1.20"
+      "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1633",
+      "vitest": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1633"
     }
   }
 }
