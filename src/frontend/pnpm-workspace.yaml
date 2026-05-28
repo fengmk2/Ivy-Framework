@@ -1,0 +1,29 @@
+blockExoticSubdeps: false
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - "@voidzero-dev/vite-plus-core"
+  - "@voidzero-dev/vite-plus-test"
+  - "@voidzero-dev/vite-plus-prompts"
+  - "@oxc-project/runtime"
+  - "@oxlint/types"
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+overrides:
+  brace-expansion: 5.0.6
+  postcss: 8.5.10
+  uuid: 14.0.0
+  "@swc/helpers": 0.5.17
+  axios: 1.15.2
+  dompurify: 3.4.0
+  follow-redirects: ">=1.16.0"
+  lodash-es: 4.18.1
+  minimatch: 9.0.7
+  remark-mermaid-plugin>mermaid: 11.15.0
+  rollup: ">=4.59.0"
+  vite: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703
+  vitest: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703
+  "@voidzero-dev/vite-plus-core": https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8
+  "@voidzero-dev/vite-plus-test": https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8
+  "@voidzero-dev/vite-plus-prompts": https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-prompts@d0b407c85b560c2470395176c9f1c838b5ca8af8
