@@ -127,8 +127,7 @@
     "typescript": "5.9.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plugin-mkcert": "^1.17.10",
-    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1588",
-    "vitest": "^4.1.5"
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1588"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [

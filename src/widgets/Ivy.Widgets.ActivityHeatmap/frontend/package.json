@@ -21,7 +21,6 @@
     "typescript": "5.9.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1588",
-    "vitest": "^4.1.5",
     "@vitejs/plugin-react": "6.0.1"
   },
   "peerDependencies": {
