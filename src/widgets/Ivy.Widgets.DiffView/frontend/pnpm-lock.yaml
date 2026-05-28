@@ -9,9 +9,9 @@ overrides:
   lodash-es: 4.18.1
   vite: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703
   vitest: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703
-  '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8
-  '@voidzero-dev/vite-plus-test': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8
-  '@voidzero-dev/vite-plus-prompts': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-prompts@d0b407c85b560c2470395176c9f1c838b5ca8af8
+  '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703
+  '@voidzero-dev/vite-plus-test': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703
+  '@voidzero-dev/vite-plus-prompts': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-prompts@1703
 
 importers:
 
@@ -475,114 +475,50 @@ packages:
       yaml:
         optional: true
 
-  '@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-4+hj40CYWZfnyAJYj+9vrSEPwnjk9l1iZiGyY9utt3pwzYUkQy9p8QJHiFe0KmI2DKBzfGDquQdUkisTQ2fsDA==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8}
-    version: 0.1.23
-    engines: {node: ^20.19.0 || >=22.12.0}
-    peerDependencies:
-      '@arethetypeswrong/core': ^0.18.1
-      '@tsdown/css': 0.22.0
-      '@tsdown/exe': 0.22.0
-      '@types/node': ^20.19.0 || >=22.12.0
-      '@vitejs/devtools': ^0.1.18
-      esbuild: ^0.27.0 || ^0.28.0
-      jiti: '>=1.21.0'
-      less: ^4.0.0
-      publint: ^0.3.8
-      sass: ^1.70.0
-      sass-embedded: ^1.70.0
-      stylus: '>=0.54.8'
-      sugarss: ^5.0.0
-      terser: ^5.16.0
-      tsx: ^4.8.1
-      typescript: ^5.0.0 || ^6.0.0
-      unplugin-unused: ^0.5.0
-      unrun: '*'
-      yaml: ^2.4.2
-    peerDependenciesMeta:
-      '@arethetypeswrong/core':
-        optional: true
-      '@tsdown/css':
-        optional: true
-      '@tsdown/exe':
-        optional: true
-      '@types/node':
-        optional: true
-      '@vitejs/devtools':
-        optional: true
-      esbuild:
-        optional: true
-      jiti:
-        optional: true
-      less:
-        optional: true
-      publint:
-        optional: true
-      sass:
-        optional: true
-      sass-embedded:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-      tsx:
-        optional: true
-      typescript:
-        optional: true
-      unplugin-unused:
-        optional: true
-      unrun:
-        optional: true
-      yaml:
-        optional: true
-
   '@voidzero-dev/vite-plus-darwin-arm64@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-arm64@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-SxdPqR7Y9gtSt8Jj9BU74PDdOCdNtNWsD5vHBh+mGx0SZyorn541mpdDO3oGaod+cjkf3MxJ3uhv1MWUrPhevw==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-arm64@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-arm64@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
   '@voidzero-dev/vite-plus-darwin-x64@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-x64@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-s41dqSQtOnAfgTSrwn7WMnOQDjlmofMblsqd6XrTbavA/tApAYUT4T40t0yr+/fJVnLYeT6losc43Q1pnGJzqw==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-x64@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-x64@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
   '@voidzero-dev/vite-plus-linux-arm64-gnu@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-gnu@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-GgvdYSA4hf3AUa2fnq0xFiI3QxGFGXYrMpL3LK1oXlwJ3OSv6NMKnfRJeiQsI5zp6fDhHQXExpisXfdHM+ZPpA==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-gnu@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-gnu@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
   '@voidzero-dev/vite-plus-linux-arm64-musl@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-cANZSGNn2qO6klpxNWBsWZYuVGroZWFb/yQnI42lqRQKtC9DpSXfTeuKYIjbiZrPYQ8Y7TK7FpoYszHd9MpdGg==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-arm64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
   '@voidzero-dev/vite-plus-linux-x64-gnu@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-gnu@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-1SnIAqF/kYGcee03MDEANu1GWlr9jpqTD3H6xhgDfrIsUOjXTXD83lJHm0APjtcYIgGNJ9w07g7/gmnxxklcNQ==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-gnu@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-gnu@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
   '@voidzero-dev/vite-plus-linux-x64-musl@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-UvCGDeNnqoo/W+Dd0jZw8lMpTVSXgBocv5FSpisRiKA5gnalmGaFYSuBRRLxL06U4D7eG7Xjpn5rmkp6HWv0eg==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
-  '@voidzero-dev/vite-plus-test@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-3+Ep7YtHC9EPhBepNFJlPBH+kV/MtvQ8fz3lKB0jIGxtkYzpFWCBoLNAr4oqVbGrAg4FkVc7hHklEpYf1JCBkw==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+  '@voidzero-dev/vite-plus-test@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703':
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703}
     version: 0.1.23
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     peerDependencies:
@@ -614,14 +550,14 @@ packages:
         optional: true
 
   '@voidzero-dev/vite-plus-win32-arm64-msvc@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-arm64-msvc@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-9kto5i3LVJiT+u1KSkSh6NP8jQINWZoiMJxEjA2UoQ3Ns5vWyLSsH+LCvcbtEIxFfcRRreRS0k2eXZhibQyGwg==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-arm64-msvc@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-arm64-msvc@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
   '@voidzero-dev/vite-plus-win32-x64-msvc@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-x64-msvc@d0b407c85b560c2470395176c9f1c838b5ca8af8':
-    resolution: {integrity: sha512-wXKM7wFsi6QdnJ6BnAN+OxkJkqRUyTL0PBzxM41Bcn44C7iMBR935QawnqZanXr+tLN+pJ161XwOQcAieJr19g==, tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-x64-msvc@d0b407c85b560c2470395176c9f1c838b5ca8af8}
+    resolution: {tarball: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-win32-x64-msvc@d0b407c85b560c2470395176c9f1c838b5ca8af8}
     version: 0.1.23
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
@@ -1370,17 +1306,6 @@ snapshots:
       jiti: 1.21.7
       typescript: 5.9.3
 
-  '@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8(jiti@1.21.7)(typescript@5.9.3)':
-    dependencies:
-      '@oxc-project/runtime': 0.133.0
-      '@oxc-project/types': 0.133.0
-      lightningcss: 1.32.0
-      postcss: 8.5.10
-    optionalDependencies:
-      fsevents: 2.3.3
-      jiti: 1.21.7
-      typescript: 5.9.3
-
   '@voidzero-dev/vite-plus-darwin-arm64@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-darwin-arm64@d0b407c85b560c2470395176c9f1c838b5ca8af8':
     optional: true
 
@@ -1399,11 +1324,11 @@ snapshots:
   '@voidzero-dev/vite-plus-linux-x64-musl@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-linux-x64-musl@d0b407c85b560c2470395176c9f1c838b5ca8af8':
     optional: true
 
-  '@voidzero-dev/vite-plus-test@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3))(jiti@1.21.7)(typescript@5.9.3)':
+  '@voidzero-dev/vite-plus-test@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3))(jiti@1.21.7)(typescript@5.9.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@types/chai': 5.2.3
-      '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8(jiti@1.21.7)(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3)
       es-module-lexer: 1.7.0
       obug: 2.1.1
       pixelmatch: 7.1.0
@@ -1917,8 +1842,8 @@ snapshots:
     dependencies:
       '@oxc-project/types': 0.133.0
       '@oxlint/plugins': 1.61.0
-      '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@d0b407c85b560c2470395176c9f1c838b5ca8af8(jiti@1.21.7)(typescript@5.9.3)
-      '@voidzero-dev/vite-plus-test': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@d0b407c85b560c2470395176c9f1c838b5ca8af8(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3))(jiti@1.21.7)(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-core': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3)
+      '@voidzero-dev/vite-plus-test': https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1703(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3))(jiti@1.21.7)(typescript@5.9.3)
       oxfmt: 0.52.0(vite-plus@https://pkg.pr.new/voidzero-dev/vite-plus@1703(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3))(jiti@1.21.7)(typescript@5.9.3))
       oxlint: 1.67.0(oxlint-tsgolint@0.23.0)(vite-plus@https://pkg.pr.new/voidzero-dev/vite-plus@1703(@voidzero-dev/vite-plus-core@https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1703(jiti@1.21.7)(typescript@5.9.3))(jiti@1.21.7)(typescript@5.9.3))
       oxlint-tsgolint: 0.23.0
