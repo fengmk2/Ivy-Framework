@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vite-plus/test";
 import * as arrow from "apache-arrow";
 import { getHiddenKeyValue } from "./arrowUtils";
 

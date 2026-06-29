@@ -30,7 +30,7 @@ export const ExpandableWidget: React.FC<ExpandableWidgetProps> = ({
   disabled = false,
   open: propOpen = false,
   density = Densities.Medium,
-  icon = undefined,
+  icon,
   ghost = false,
   slots,
 }) => {

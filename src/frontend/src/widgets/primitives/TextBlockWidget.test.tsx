@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vite-plus/test";
 import { renderToString } from "react-dom/server";
 import { TextBlockWidget } from "./TextBlockWidget";
 

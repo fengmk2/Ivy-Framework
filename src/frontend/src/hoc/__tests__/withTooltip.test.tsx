@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from "vitest";
+import { describe, it, expect, beforeEach, afterEach } from "vite-plus/test";
 import React, { act, createRef } from "react";
 import { createRoot, Root } from "react-dom/client";
 import withTooltip from "../withTooltip";
