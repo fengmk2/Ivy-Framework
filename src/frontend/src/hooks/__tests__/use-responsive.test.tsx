@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
+import { describe, it, expect, beforeEach, afterEach, vi } from "vite-plus/test";
 import React, { act, useRef } from "react";
 import { createRoot, Root } from "react-dom/client";
 import { useBreakpoint, type BreakpointName } from "../use-responsive";

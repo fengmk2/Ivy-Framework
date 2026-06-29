@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi, afterEach } from "vitest";
+import { describe, it, expect, beforeEach, vi, afterEach } from "vite-plus/test";
 import React from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { act } from "react";
