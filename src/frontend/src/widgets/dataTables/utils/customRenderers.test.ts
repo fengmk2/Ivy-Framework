@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeAll, beforeEach } from "vitest";
+import { describe, it, expect, vi, beforeAll, beforeEach } from "vite-plus/test";
 import { GridCellKind } from "@glideapps/glide-data-grid";
 import { iconCellRenderer, IconCell } from "./customRenderers";
 

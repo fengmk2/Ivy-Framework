@@ -1,0 +1,23 @@
+overrides:
+  brace-expansion: 5.0.6
+  postcss: 8.5.10
+  uuid: 14.0.0
+  "@swc/helpers": 0.5.17
+  axios: 1.16.1
+  dompurify: 3.4.11
+  follow-redirects: ">=1.16.0"
+  lodash-es: 4.18.1
+  minimatch: 9.0.7
+  remark-mermaid-plugin>mermaid: 11.15.0
+  rollup: ">=4.59.0"
+  vite: "catalog:"
+  ws: 8.21.0
+  form-data: 4.0.6
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.5b214b7987c99adfe0aff4d406264457ed0232ce
+  vite-plus: 0.0.0-commit.5b214b7987c99adfe0aff4d406264457ed0232ce
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: "*"

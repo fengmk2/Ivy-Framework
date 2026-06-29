@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vite-plus/test";
 import { reorderColumns, convertToGridColumns } from "./columnHelpers";
 import type { DataColumn } from "../types/types";
 import { ColType } from "../types/types";

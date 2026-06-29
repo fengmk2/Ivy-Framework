@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vite-plus/test";
 import { validateSingleFile, validateFileCount } from "../file-input-validation";
 import { formatBytes } from "@/lib/formatters";
 

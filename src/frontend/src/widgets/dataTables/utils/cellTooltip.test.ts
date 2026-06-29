@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, afterEach } from "vitest";
+import { describe, expect, it, vi, afterEach } from "vite-plus/test";
 import { GridCellKind } from "@glideapps/glide-data-grid";
 import { getCellDisplayLabel, getTruncatedCellTooltip } from "./cellTooltip";
 import { getCellFont } from "./canvasText";
