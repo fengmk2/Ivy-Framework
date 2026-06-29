@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vite-plus/test";
 import { Densities } from "@/types/density";
 import { getDataTableMinHeight } from "./dataTableLayout";
 import { DENSITY_CONFIG } from "./dataTableEditor/constants";

@@ -661,7 +661,7 @@ export const getColor = (
   color?: string,
   cssProperty: "color" | "backgroundColor" | "borderColor" = "color",
   role: "background" | "foreground" = "background",
-  percentage: number | undefined = undefined,
+  percentage?: number,
 ) => {
   if (!color) return {};
 

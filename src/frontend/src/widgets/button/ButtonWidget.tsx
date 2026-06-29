@@ -37,7 +37,6 @@ interface ButtonWidgetProps {
     | "Secondary"
     | "Ghost"
     | "Link"
-    | "Inline"
     | "Ai";
   disabled: boolean;
   tooltip?: string;

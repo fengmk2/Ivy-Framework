@@ -186,6 +186,11 @@ function manualChunks(id) {
 }
 
 export default defineConfig({
+  lint: {
+    jsPlugins: [{ name: "vite-plus", specifier: "vite-plus/oxlint-plugin" }],
+    rules: { "vite-plus/prefer-vite-plus-imports": "error" },
+    options: { typeAware: true, typeCheck: true },
+  },
   base: "./",
   staged: {
     "src/**/*.{ts,tsx,js,jsx}": "vp check --fix",

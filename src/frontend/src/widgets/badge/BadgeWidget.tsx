@@ -32,7 +32,7 @@ interface BadgeWidgetProps {
 
 export const BadgeWidget: React.FC<BadgeWidgetProps> = ({
   title,
-  icon = undefined,
+  icon,
   iconPosition = "Left",
   variant = "Primary",
   color,
