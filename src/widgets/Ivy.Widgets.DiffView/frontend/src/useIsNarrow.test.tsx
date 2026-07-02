@@ -1,4 +1,4 @@
-import { describe, expect, it, beforeEach, afterEach, vi } from "vitest";
+import { describe, expect, it, beforeEach, afterEach, vi } from "vite-plus/test";
 import { createRoot, type Root } from "react-dom/client";
 import { useIsNarrow, NARROW_BREAKPOINT } from "./DiffView";
 

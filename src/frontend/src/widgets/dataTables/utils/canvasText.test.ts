@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, afterEach } from "vitest";
+import { describe, expect, it, vi, afterEach } from "vite-plus/test";
 import { getCellFont, truncateTextWithEllipsis } from "./canvasText";
 
 function mockCanvasMeasure(measure: (text: string) => number) {

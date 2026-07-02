@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vite-plus/test";
 
 // We test the internal logic by extracting the catch handler behavior
 // rather than testing through React.lazy (which requires rendering)

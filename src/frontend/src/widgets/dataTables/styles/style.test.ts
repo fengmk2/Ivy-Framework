@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect } from "vite-plus/test";
 import { tableStyles } from "./style";
 
 describe("tableStyles.table.container", () => {

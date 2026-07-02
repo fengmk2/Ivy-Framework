@@ -1,0 +1,27 @@
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - '@oxfmt/*'
+  - '@oxlint-tsgolint/*'
+  - '@rolldown/*'
+  - '@tsdown/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+  - tsdown
+  - rolldown
+overrides:
+  postcss: 8.5.10
+  lodash-es: 4.18.1
+  vite: "catalog:"
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251
+  vite-plus: 0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: "*"
