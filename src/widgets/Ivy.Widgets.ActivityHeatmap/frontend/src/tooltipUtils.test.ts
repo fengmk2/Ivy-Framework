@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "vite-plus/test";
 import { ENGLISH_LOCALE, formatTooltipHeader, resolveLocale } from "./tooltipUtils";
 import type { Activity } from "./types";
 
@@ -9,8 +9,12 @@ describe("formatTooltipHeader (English locale)", () => {
   });
 
   it("renders the calendar day of the entry", () => {
-    expect(formatTooltipHeader({ date: "2025-01-01", count: 1 }, ENGLISH_LOCALE)).toBe("Jan 1, 2025");
-    expect(formatTooltipHeader({ date: "2025-12-31", count: 1 }, ENGLISH_LOCALE)).toBe("Dec 31, 2025");
+    expect(formatTooltipHeader({ date: "2025-01-01", count: 1 }, ENGLISH_LOCALE)).toBe(
+      "Jan 1, 2025",
+    );
+    expect(formatTooltipHeader({ date: "2025-12-31", count: 1 }, ENGLISH_LOCALE)).toBe(
+      "Dec 31, 2025",
+    );
   });
 
   it("appends a zero-padded hour suffix for hourly entries", () => {

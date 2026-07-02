@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "vite-plus/test";
 import { computeMaxCount, getLevel } from "./levelUtils";
 import type { Activity } from "./types";
 

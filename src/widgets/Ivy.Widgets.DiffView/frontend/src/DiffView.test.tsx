@@ -1,4 +1,4 @@
-import { describe, expect, it, beforeEach, afterEach, vi } from "vitest";
+import { describe, expect, it, beforeEach, afterEach, vi } from "vite-plus/test";
 import type { ReactElement } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { DiffView, NARROW_BREAKPOINT } from "./DiffView";
@@ -103,17 +103,13 @@ describe("DiffView responsive behavior", () => {
   }
 
   it("renders side-by-side split on a wide container", async () => {
-    await render(
-      <DiffView id="d1" onIvyEvent={noop} diff={SINGLE_FILE_DIFF} viewType="Split" />,
-    );
+    await render(<DiffView id="d1" onIvyEvent={noop} diff={SINGLE_FILE_DIFF} viewType="Split" />);
     expect(splitTableCount()).toBeGreaterThan(0);
     expect(unifiedTableCount()).toBe(0);
   });
 
   it("forces unified (inline) view when the container is narrow", async () => {
-    await render(
-      <DiffView id="d2" onIvyEvent={noop} diff={SINGLE_FILE_DIFF} viewType="Split" />,
-    );
+    await render(<DiffView id="d2" onIvyEvent={noop} diff={SINGLE_FILE_DIFF} viewType="Split" />);
     expect(splitTableCount()).toBeGreaterThan(0);
 
     emitResize(NARROW_BREAKPOINT - 50);
@@ -123,9 +119,7 @@ describe("DiffView responsive behavior", () => {
   });
 
   it("restores split view when the container grows wide again", async () => {
-    await render(
-      <DiffView id="d3" onIvyEvent={noop} diff={SINGLE_FILE_DIFF} viewType="Split" />,
-    );
+    await render(<DiffView id="d3" onIvyEvent={noop} diff={SINGLE_FILE_DIFF} viewType="Split" />);
     emitResize(NARROW_BREAKPOINT - 50);
     await tick();
     expect(splitTableCount()).toBe(0);

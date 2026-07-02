@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vite-plus/test";
 import { fetchTableData } from "./tableDataFetcher";
 import { getIvyHost } from "@/lib/utils";
 import { getGrpcTableService, type Filter, type SortOrder } from "@/services/grpcTableService";
